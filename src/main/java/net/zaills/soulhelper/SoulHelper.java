@@ -1,6 +1,7 @@
 package net.zaills.soulhelper;
 
 import net.fabricmc.api.ModInitializer;
+import net.zaills.soulhelper.block.ModBlocks;
 import net.zaills.soulhelper.item.ModItems;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -14,6 +15,7 @@ public class SoulHelper implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItem();
+		ModBlocks.registerModBlocks();
 
 	}
 }

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "soulhelper:soul_block",
+    "soulhelper:soul_ore",
+    "soulhelper:raw_soul_ore",
+    "soulhelper:deepslate_soul_ore",
+    "soulhelper:netherrack_soul_ore"
+  ]
+}

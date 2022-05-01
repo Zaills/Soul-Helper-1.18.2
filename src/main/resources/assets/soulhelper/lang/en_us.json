@@ -1,5 +1,13 @@
 {
   "item.soulhelper.soul_ingot" : "Soul Ingot",
   "item.soulhelper.soul_nugget" : "Soul Nugget",
-  "item.soulhelper.soul_raw" : "Soul Raw"
+  "item.soulhelper.soul_raw" : "Soul Raw",
+
+  "block.soulhelper.soul_block" : "Soul Block",
+  "block.soulhelper.soul_ore" : "Soul Ore",
+  "block.soulhelper.raw_soul_block" : "Raw Soul Block",
+  "block.soulhelper.deepslate_soul_ore" : "Deepslate Soul Block",
+  "block.soulhelper.netherrack_soul_ore" : "Netherrack Soul Block",
+
+  "itemGroup.soulhelper.soul": "Soul Helper"
 }

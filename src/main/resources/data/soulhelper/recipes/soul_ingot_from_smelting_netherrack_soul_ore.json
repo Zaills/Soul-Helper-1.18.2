@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "soul_ingot",
+  "ingredient": {
+    "item": "soulhelper:netherrack_soul_ore"
+  },
+  "result": "soulhelper:soul_ingot",
+  "experience": 0.2,
+  "cookingtime": 200
+}
