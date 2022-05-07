@@ -2,6 +2,7 @@
   "item.soulhelper.soul_ingot" : "Soul Ingot",
   "item.soulhelper.soul_nugget" : "Soul Nugget",
   "item.soulhelper.soul_raw" : "Soul Raw",
+  "item.soulhelper.dowsing_rod" : "Dowsing Rod",
 
   "block.soulhelper.soul_block" : "Soul Block",
   "block.soulhelper.soul_ore" : "Soul Ore",
@@ -9,5 +10,7 @@
   "block.soulhelper.deepslate_soul_ore" : "Deepslate Soul Block",
   "block.soulhelper.netherrack_soul_ore" : "Netherrack Soul Block",
 
-  "itemGroup.soulhelper.soul": "Soul Helper"
+  "itemGroup.soulhelper.soul": "Soul Helper",
+
+  "item.soulhelper.dowsing_rod.no_valuables": "No Valuables found"
 }

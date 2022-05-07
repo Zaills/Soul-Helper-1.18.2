@@ -2,8 +2,7 @@ package net.zaills.soulhelper.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -17,10 +16,10 @@ import org.lwjgl.system.CallbackI;
 public class ModBlocks {
 
     public  static  final Block Soul_Block = registerBlock("soul_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.SOUL);
+            new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(0.3f)), ModItemGroup.SOUL);
 
     public  static  final Block Soul_Ore = registerBlock("soul_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.SOUL);
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.SOUL);
 
     public  static  final Block Raw_Soul_Block = registerBlock("raw_soul_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.SOUL);
