@@ -9,8 +9,13 @@
   "block.soulhelper.raw_soul_block" : "Raw Soul Block",
   "block.soulhelper.deepslate_soul_ore" : "Deepslate Soul Block",
   "block.soulhelper.netherrack_soul_ore" : "Netherrack Soul Block",
+  "block.soulhelper.speedy_block" : "Speedy Block",
 
   "itemGroup.soulhelper.soul": "Soul Helper",
 
-  "item.soulhelper.dowsing_rod.no_valuables": "No Valuables found"
+  "item.soulhelper.dowsing_rod.no_valuables": "No Valuables found",
+
+  "item.soulhelper.dowsing_rod.tooltip.shift": "Right Click to find valuables",
+  "item.soulhelper.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
+  "tooltip.soulhelper.soul_block": "not a soulless block"
 }
