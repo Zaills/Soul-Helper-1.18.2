@@ -23,7 +23,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(0.3f)), ModItemGroup.SOUL, "tooltip.soulhelper.soul_block");
 
     public  static  final Block Soul_Ore = registerBlock("soul_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.SOUL);
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.45f)), ModItemGroup.SOUL);
 
     public  static  final Block Raw_Soul_Block = registerBlock("raw_soul_block",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.SOUL);
